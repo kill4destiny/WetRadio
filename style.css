@@ -1,0 +1,114 @@
+body{
+    background-image: url("wetradio.jpg");
+    background-attachment: fixed;
+}
+
+h1{
+    text-align:center;
+    font-size: 80px;
+    font-family:Blippo, fantasy;
+    background-color: azure;
+    margin: auto;
+    border-radius: 50px;
+    width: 500px;
+}
+
+#intro,h2,h3{
+    text-align: center;
+    justify-content: center;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+span{
+    color: rgba(168, 139, 248, 0);
+    transition: all 3.5s ease;
+}
+
+span:hover{
+     color: rgba(26, 3, 107, 0.836);     
+    transition: all 0.3s ease;
+}
+
+#intro{
+    background-color: rgba(128, 128, 128, 0.705);
+    margin: auto;
+    border-radius: 50px;
+    width: 150vh;
+}
+
+h2{
+    margin-bottom: -10px;
+    font-size: 45px;
+    color: rgba(17, 54, 155, 0.89);
+}
+
+h3{
+    color: rgba(26, 3, 107, 0.836);
+    font-size: 35px;
+}
+
+#button{
+    text-align: center;
+    border-style: solid ;
+    border-color: rgb(190, 119, 53);
+    border-radius: 50px;
+    width: 230px;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 100px;
+    border-width: 10px;
+    background-color: rgba(128, 128, 128, 0.705);
+    transition: ease 1s;
+}
+
+#button:hover{
+    border-color: rgb(19, 158, 201);
+    transition: ease 1s;
+}
+
+.column{
+    display: inline;
+    padding-left: 10px;
+}
+
+.row{
+    text-align: center;
+}
+
+h4{
+    margin-top: 50px;
+    font-family:cursive;
+    font-size: 50px;
+    color: rgb(0, 162, 255);
+}
+
+p{
+    margin-top: -65px;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(226, 168, 43);
+    font-weight: bold;
+}
+
+.image{
+    height: 30%;
+    max-height: 30%;
+    border-radius: 50%;
+    margin: 20px;
+    opacity: 66%;
+    transition: ease-in-out .6s;
+    margin-top: 0px;
+}
+
+.image:hover{
+    opacity:150%;
+    transition: ease-in-out .6s;
+}
+
+#ads{
+    margin-top: 200px;
+}
+
+
+
+
